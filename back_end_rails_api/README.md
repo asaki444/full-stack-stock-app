@@ -2,6 +2,8 @@
 
 Api with ability to register, login, and purchase stocks.
 
+To use with the stock-end-front-end, which uses the alpavantage API to retrieve stock information to display/post to api.
+
 ## To install
 
 Clone this repo
@@ -11,7 +13,7 @@ cd into repo, and run:
 
 To start the server
 
-```rails s ``
+```rails s```
 ## Usage
 
 Here are the routes that are available
@@ -45,6 +47,7 @@ To log in:
  To add another transaction:
 
  `  transaction: {
+     user: 'user.id'
      purchase_amount: total,
      amount_of_stock: amount_of_stock ,
      stock_symbol: stock_symbol
@@ -53,7 +56,7 @@ To log in:
  
  #Testing
 
-  This api uses minitest to test models, and controllers.
+  This api uses minitest to test models.
 
   To run tests, enter this in the command line:
 
