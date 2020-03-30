@@ -22,13 +22,13 @@ This is the frontend of an application, that includes login, registration, and p
 #### Login
 
 
-![alt text](https://ibb.co/y4PhWxW)
+![alt text](https://i.imgur.com/2DV19pP.png)
 
 
 ### Purchase / Portfolio view
 Once you get logged in, purchased a few stocks, you can see how your portfolio is doing:
 
-![alt text](https://ibb.co/FHWvmV3)
+![alt text](https://i.imgur.com/c8fxh2w.png)
 
 The color coded numbers indicates the positive, negative, or neutral change of a stock day to day.
 
