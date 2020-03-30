@@ -39,7 +39,7 @@ class Registration extends React.Component {
 							account_balance : account_balance
 						});
 					}
-					else if (response.data.status === 'duplicate record') {
+					else if (response.data.message === 'duplicate record') {
 						this.setState({
 							duplicateFound : true
 						});
