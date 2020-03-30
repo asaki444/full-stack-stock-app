@@ -13,6 +13,6 @@ This application is built with React on the Front End, and Ruby on Rails on the 
 Please use the following links to look at their ReadMes respectively:
 
 
-###[Back-end-stock-app](https://github.com/asaki444/full-stack-stock-app/blob/master/back_end_rails_api/README.md)
+#### [Back-end-stock-app](https://github.com/asaki444/full-stack-stock-app/blob/master/back_end_rails_api/README.md)
 
-###[Front-end-stock-app](https://github.com/asaki444/full-stack-stock-app/tree/master/front_end_react_app/README.md)
+#### [Front-end-stock-app](https://github.com/asaki444/full-stack-stock-app/tree/master/front_end_react_app/README.md)
