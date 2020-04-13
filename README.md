@@ -1,7 +1,7 @@
 # full-stack-stock-app
 
 
-## This is repository is comprised of two folders one for the backend
+## This is repository is comprised of two folders(Back-end, and Front-end)
 
 #### Brief Summary:
 
