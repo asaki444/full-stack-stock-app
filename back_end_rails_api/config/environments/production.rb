@@ -81,6 +81,12 @@ Rails.application.configure do
     config.logger = ActiveSupport::TaggedLogging.new(logger)
   end
 
+  config.public_file_server.headers = {
+
+    'Access-Control-Allow-Origin' => 'https://stock-application-aditi.netlify.app/',
+    'Access-Control-Request-Method' => %w{GET OPTIONS}.join(",")
+  }
+
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
