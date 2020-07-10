@@ -29,7 +29,6 @@ class Registration extends React.Component {
 				}
 			})
 				.then((response) => {
-					console.log(response)
 					if (response.data.status === 'created') {
 						const { account_balance } = response.data.user;
 						const user = response.data.user
